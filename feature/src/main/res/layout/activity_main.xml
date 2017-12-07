@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="526dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            app:srcCompat="@color/colorAccent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-4dp" />
+
+        <EditText
+            android:ems="10"
+            android:id="@+id/editText"
+            android:inputType="textPersonName"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Name"
+            text="hello"
+            textAppearance="@style/TextAppearance.AppCompat.Caption"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            visibility="visible" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="91dp"
+            tools:layout_editor_absoluteY="383dp" />
+
+
+</RelativeLayout>
+
+
+
